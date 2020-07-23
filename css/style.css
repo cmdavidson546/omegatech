@@ -1,0 +1,49 @@
+
+body {
+    margin: 0px;        /* sets left margin to flush on left */
+    text-align: center; /* aligns everything in the body to center*/
+    font-family: cursive;
+    color: white;
+}
+
+
+/* top div holds everything inside body */
+.top-container {
+    background-color: #222831;
+}
+
+/* this is the back WALL picture and sits inside body->top-div but is NOT inside the inner-top div */
+.code-pic {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    padding: 5px;
+}
+
+/* inner div holds omega pic and company text and is centered on page */
+.inner-top {
+    background-color: #01a9b4;
+    position: fixed;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 15%;
+    padding: 20px;
+    opacity: .95;
+}
+
+/* inside body->top-div->inner-top */
+.omeg-pic {
+    background-color: #01a9b4;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+/* inside body->top-container->inner-top */
+h1 {
+    margin-top: 0px;        /* sets top margin to flush on top */
+}
+
+
+
+
